@@ -56,7 +56,5 @@ public class Main {
         } catch (SQLException e) {
             System.out.println("Connection failed: " + e.getMessage());
         }
-        System.out.println("HELLo");
-        System.out.println("Wtf");
     }
 }
