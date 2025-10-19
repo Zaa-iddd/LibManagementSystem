@@ -10,7 +10,7 @@ import java.sql.Statement;
 public class DBAccounts {
 
     public static void main(String[] args) {
-        String url = "jdbc:sqlite:C:/Users/USER/Desktop/LibManagementSystem.db";
+        String url = "jdbc:sqlite:database/LibManagementSystem.db";
 
         try (Connection conn = DriverManager.getConnection(url)) {
             if (conn != null) {
